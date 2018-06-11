@@ -1,0 +1,18 @@
+<table>
+	<thead>
+		<th>Farmer Name</th>
+		<th>Village, City</th>
+		<th>Rate</th>
+		<th>Agreement Date</th>
+		<th>Type</th>
+		<th>Action</th>
+	</thead>
+	<tr *ngFor="let agreement of agreementLists">
+		<td>{{agreement.farmer.first_name}} {{agreement.farmer.last_name}} </td>
+		<td>{{agreement.farmer.village}}, {{agreement.farmer.city}}</td>
+		<td>{{agreement.detail.rate}}</td>
+		<td>{{agreement.detail.agreement_date}}</td>
+		<td>{{agreement.detail.agreement_type}}</td>
+		<td></td>
+	</tr>
+</table>

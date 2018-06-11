@@ -1,0 +1,17 @@
+.border{
+	border-bottom: 1px solid silver;
+	padding-bottom: 2rem;
+}
+.border h3{
+	padding-bottom: 2rem;
+}
+.border .row{
+	padding-bottom: 4rem;
+}
+.required:after{
+	color: #d00;
+    content: "*";
+    position: absolute;
+    margin-left: 2px;
+    top: -2px;
+}

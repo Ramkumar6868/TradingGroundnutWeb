@@ -1,0 +1,27 @@
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="text-center text-muted">Groundnut Trading</h1>
+        </div>
+         <!-- <div class="alert alert-success alert-dismissible fade out" data-auto-dismiss role="alert">
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<strong>Success!</strong> Welcome.
+		</div> -->
+         <div class="modal-body">
+         		<form  [formGroup]="loginForm" (ngSubmit)="logIn($event)">
+	             <div class="form-group">
+	                 <input type="text" class="form-control input-lg" formControlName="email" placeholder="Username"/>
+	             </div>
+
+	             <div class="form-group">
+	                 <input type="password" class="form-control input-lg" formControlName="password" placeholder="Password"/>
+	             </div>
+
+	             <div class="form-group text-right">
+	                 <input type="submit" class="btn btn-md btn-primary" value="Login"/>
+	                 <!-- <span class="pull-right"><a href="#">Register</a></span><span><a href="#">Forgot Password</a></span> -->
+	             </div>
+	         </form>
+         </div>
+    </div>
+ </div>
